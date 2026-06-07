@@ -1,0 +1,27 @@
+skill-evolve
+Copyright (c) 2026 Solid State (solidstate.cc)
+
+This project is a generalization layer. The evolution engine is not ours.
+
+Built on:
+
+  hermes-agent-self-evolution
+  Copyright (c) 2026 Nous Research
+  https://github.com/NousResearch/hermes-agent-self-evolution
+  MIT License
+  Used as a pinned dependency. Not forked, not vendored.
+
+  DSPy — Stanford NLP
+  https://github.com/stanfordnlp/dspy
+  MIT License
+
+  GEPA — Genetic-Pareto Prompt Evolution (ICLR 2026)
+  https://github.com/gepa-ai/gepa
+  MIT License
+
+What Solid State adds: the target adapter that makes the engine work on any
+agentskills.io skill directory, the SKILL.md driver, and the evaluation
+constraint gates. Those parts are Copyright (c) 2026 Solid State, MIT.
+
+Credit where built: if you use this, you are using Nous Research's engine
+with Solid State's gates. Both deserve the star.
